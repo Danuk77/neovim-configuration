@@ -31,7 +31,10 @@ return {
       },
     },
   },
-
+  {
+    "nvim-telescope/telescope-file-browser.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+  },
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
@@ -65,6 +68,7 @@ return {
       animate = { enabled = true },
       bigfile = { enabled = true },
       input = { enabled = true },
+      indent = { enabled = true },
       picker = { enabled = false },
       notifier = { enabled = true },
       quickfile = { enabled = true },

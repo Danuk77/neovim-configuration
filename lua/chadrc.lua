@@ -5,7 +5,7 @@
 local M = {}
 
 M.ui = {
-  theme = "yoru",
+  theme = "gatekeeper",
   telescope = {
     style = "bordered",
   },
